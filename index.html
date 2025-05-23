@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dra Ana Carolina | Neuropsicóloga e Psicóloga Clínica</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Dra. Ana Carolina</h1>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-text">
+      <h2>Bem-vindo ao seu espaço de escuta e acolhimento</h2>
+      <p>Atendimento psicológico online e presencial com empatia e ética.</p>
+      <button onclick="abrirWhatsApp()">Agende sua sessão</button>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou psicólogo clínico com foco em terapia cognitivo-comportamental. Meu trabalho é ajudar você a lidar com desafios emocionais de forma respeitosa, acolhedora e eficaz.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Sessões de psicoterapia online</li>
+      <li>Acompanhamento presencial</li>
+      <li>Orientação emocional</li>
+    </ul>
+  </section>
+
+  <section id="depoimentos">
+    <h2>Depoimentos</h2>
+    <blockquote>“Dr. Ana Carolina me ajudou a enxergar a vida de outra forma. Gratidão eterna.”</blockquote>
+    <blockquote>“Profissional incrível, muito ética e acolhedora.”</blockquote>
+  </section>
+
+  <section id="contador">
+    <h2>+<span id="counter">0</span> sessões realizadas</h2>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em contato</h2>
+    <form id="form-contato" action="https://formspree.io/f/xyzwadno" method="POST">
+      <input type="text" id="nome" name="name" placeholder="Seu nome" required> 
+      <input type="email" id="email" name="email" placeholder="Seu e-mail" required> 
+      <textarea id="mensagem" name="message" placeholder="Sua mensagem" required></textarea></textarea>
+      <button type="submit" style="padding: 0.5rem 1rem; font-size: 1rem;">Enviar</button>
+    </form>
+    <p>&nbsp;</p>
+    <button onclick="abrirWhatsApp()">Falar no WhatsApp</button>
+    <p>
+    <button onclick="window.location.href='https://www.instagram.com/carolgruim_/'">Ir para o Instagram</button>
+    </p>
+  </section>
+
+  <footer>
+    <button id="scroll-top">&#8679; Voltar ao topo</button>
+    <button id="toggle-theme">Mudar tema</button>
+    <p>&copy; Dra. Ana Carolina. Todos os direitos reservados. 2025.</p>
+  </footer>
+</body>
+</html>
