@@ -1,0 +1,48 @@
+<div class="layout">
+  <header class="topbar">
+    <div>
+      <h1>Plataforma de Agendamentos</h1>
+      <p>Gestão de agenda com atualização em tempo real.</p>
+    </div>
+    <button>Novo agendamento</button>
+  </header>
+
+  <section class="stats-grid">
+    <article class="card">
+      <span>Total do dia</span>
+      <strong>12</strong>
+    </article>
+    <article class="card">
+      <span>Confirmados</span>
+      <strong>8</strong>
+    </article>
+    <article class="card">
+      <span>Pendentes</span>
+      <strong>4</strong>
+    </article>
+  </section>
+
+  <section class="panel">
+    <h2>Agenda</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Cliente</th>
+          <th>Profissional</th>
+          <th>Serviço</th>
+          <th>Horário</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let appointment of appointments">
+          <td>{{ appointment.clientName }}</td>
+          <td>{{ appointment.professionalName }}</td>
+          <td>{{ appointment.serviceName }}</td>
+          <td>{{ appointment.startAt }}</td>
+          <td>{{ appointment.status }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</div>
