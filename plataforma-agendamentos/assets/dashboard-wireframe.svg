@@ -1,0 +1,15 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="32" y="24" width="1216" height="64" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="32" y="112" width="280" height="120" rx="20" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="328" y="112" width="280" height="120" rx="20" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="624" y="112" width="280" height="120" rx="20" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="920" y="112" width="328" height="120" rx="20" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="32" y="256" width="1216" height="424" rx="20" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="56" y="63" fill="#0F172A" font-size="24" font-family="Arial">Plataforma de Agendamentos - Wireframe</text>
+  <text x="56" y="155" fill="#64748B" font-size="18" font-family="Arial">Agendamentos do dia</text>
+  <text x="352" y="155" fill="#64748B" font-size="18" font-family="Arial">Confirmados</text>
+  <text x="648" y="155" fill="#64748B" font-size="18" font-family="Arial">Profissionais ativos</text>
+  <text x="944" y="155" fill="#64748B" font-size="18" font-family="Arial">Pendentes</text>
+  <text x="56" y="292" fill="#64748B" font-size="18" font-family="Arial">Agenda do período</text>
+</svg>
