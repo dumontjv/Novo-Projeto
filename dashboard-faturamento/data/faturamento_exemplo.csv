@@ -1,0 +1,13 @@
+data_venda,cliente,categoria,produto,quantidade,receita,custo,canal,estado
+2026-01-03,Loja Aurora,Roupa,Camiseta Básica,30,4500.00,2400.00,E-commerce,SP
+2026-01-05,Studio Move,Acessórios,Garrafa Térmica,18,1980.00,950.00,Marketplace,RJ
+2026-01-09,Clínica Vida,Escritório,Planner Executivo,25,3250.00,1420.00,Inside Sales,MG
+2026-01-14,Café do Porto,Descartáveis,Copo Personalizado,40,2800.00,1300.00,Inside Sales,PR
+2026-02-02,Tech Point,Brindes,Kit Corporativo,15,5400.00,2600.00,E-commerce,SP
+2026-02-07,Loja Aurora,Roupa,Moleton Premium,20,6200.00,3300.00,Marketplace,SC
+2026-02-10,Farma Bem,Escritório,Caderno Executivo,35,3150.00,1510.00,Inside Sales,BA
+2026-02-19,Studio Move,Acessórios,Mochila Casual,12,4560.00,2200.00,E-commerce,RJ
+2026-03-01,Clínica Vida,Escritório,Agenda Médica,28,3360.00,1490.00,Inside Sales,MG
+2026-03-05,Café do Porto,Descartáveis,Tampa Biodegradável,55,2475.00,1190.00,Marketplace,PR
+2026-03-11,Tech Point,Brindes,Mouse Pad Premium,60,3900.00,1700.00,E-commerce,SP
+2026-03-18,Farma Bem,Escritório,Pasta Organizadora,22,2640.00,1188.00,Inside Sales,BA
