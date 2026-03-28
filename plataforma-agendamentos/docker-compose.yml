@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: agendamentos-mysql
+    environment:
+      MYSQL_DATABASE: agendamentosdb
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - '3306:3306'
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
